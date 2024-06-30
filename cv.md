@@ -1,6 +1,4 @@
-# Alexandra Masalskaya
-
-**Junior Full Stack Developer**
+# Alexandra Masalskaya | Junior Full Stack Developer
 
 ## Contact information
 - Address: Minsk, Belarus
