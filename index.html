@@ -1,11 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-
+  <header class="header">
+    <h1 class="visually-hidden">
+      Resume of the junior accountant of the developer
+    </h1>
+    <div class="container">
+      <div class="navigation flex">
+        <nav class="navigation-content">
+          <ul class="navigation-list list-reset">
+            <li class="navigation-item">
+              <a href="#profile" class="navigation-link">
+                Profile
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#contacts" class="navigation-link">
+                Contacts
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#about" class="navigation-link">
+                About
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#skills" class="navigation-link">
+                Skills
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#code-example" class="navigation-link">
+                Code&nbsp;example
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#projects" class="navigation-link">
+                Projects
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#education" class="navigation-link">
+                Education
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#languages" class="navigation-link">
+                Languages
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="profile section-indents" id="profile">
+      <h2 class="visually-hidden">
+        Profile
+      </h2>
+      <div class="container">
+        <div class="profile-user flex">
+          <div class="profile-avatar">
+            <img src="img/avatar.png" alt="Alexandra Masalskaya | Junior Full Stack Developer" class="profile-avatar-image">
+          </div>
+          <div class="profile-text">
+            <div class="profile-name">
+              Alexandra Masalskaya
+            </div>
+            <div class="profile-post mod-section-title">
+              Junior Full Stack Developer
+            </div>
+            <ul class="profile-list list-reset flex">
+              <li class="profile-item flex">
+                <span class="flex">
+                  <svg class="profile-item-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00001 0.861111C4.80903 0.861111 2.22223 3.44791 2.22223 6.63889C2.22223 10.5389 7.3139 14.9444 7.53056 15.1322C7.80084 15.3634 8.19918 15.3634 8.46945 15.1322C8.72223 14.9444 13.7778 10.5389 13.7778 6.63889C13.7778 3.44791 11.191 0.861111 8.00001 0.861111ZM8.00001 13.6083C6.46167 12.1639 3.66667 9.05111 3.66667 6.63889C3.66667 4.24565 5.60677 2.30556 8.00001 2.30556C10.3932 2.30556 12.3333 4.24565 12.3333 6.63889C12.3333 9.05111 9.53834 12.1711 8.00001 13.6083ZM8.00001 3.75C6.40452 3.75 5.11112 5.0434 5.11112 6.63889C5.11112 8.23438 6.40452 9.52778 8.00001 9.52778C9.5955 9.52778 10.8889 8.23438 10.8889 6.63889C10.8889 5.0434 9.5955 3.75 8.00001 3.75ZM8.00001 8.08333C7.20226 8.08333 6.55556 7.43663 6.55556 6.63889C6.55556 5.84114 7.20226 5.19444 8.00001 5.19444C8.79775 5.19444 9.44445 5.84114 9.44445 6.63889C9.44445 7.43663 8.79775 8.08333 8.00001 8.08333Z" fill="#3E6AF2"/>
+                  </svg>
+                  Minsk, Belarus
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts section-indents" id="contacts">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          Contacts
+        </h2>
+        <ul class="contacts-list list-reset">
+          <li class="contacts-item flex">
+            <svg class="contacts-item-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6667 2.66667H3.33333C2.22876 2.66667 1.33333 3.5621 1.33333 4.66667V11.3333C1.33333 12.4379 2.22876 13.3333 3.33333 13.3333H12.6667C13.7712 13.3333 14.6667 12.4379 14.6667 11.3333V4.66667C14.6667 3.5621 13.7712 2.66667 12.6667 2.66667ZM12.3933 4L8.47333 7.92C8.34815 8.04621 8.17775 8.1172 8 8.1172C7.82224 8.1172 7.65184 8.04621 7.52666 7.92L3.60666 4H12.3933ZM13.3333 11.3333C13.3333 11.7015 13.0349 12 12.6667 12H3.33333C2.96514 12 2.66666 11.7015 2.66666 11.3333V4.94L6.58666 8.86C7.36751 9.63988 8.63248 9.63988 9.41333 8.86L13.3333 4.94V11.3333Z" fill="#3E6AF2"/>
+            </svg>
+            <a href="mailto:masalskyas@gmail.com">masalskyas@gmail.com</a>
+          </li>
+          <li class="contacts-item flex">
+            <svg class="contacts-item-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.96 8.66667C12.8133 8.66667 12.66 8.62 12.5133 8.58667C12.2163 8.52122 11.9244 8.43432 11.64 8.32667C10.9995 8.09366 10.2864 8.3812 9.98667 8.99333L9.84 9.29333C9.19067 8.93212 8.59399 8.48349 8.06667 7.96C7.54318 7.43268 7.09455 6.836 6.73334 6.18667L7.01334 6C7.62547 5.70029 7.91302 4.98717 7.68 4.34667C7.57415 4.06162 7.4873 3.76987 7.42 3.47333C7.38667 3.32667 7.36 3.17333 7.34 3.02C7.17275 2.04985 6.32436 1.34569 5.34 1.36H3.34C2.75863 1.35454 2.20366 1.60234 1.81962 2.03886C1.43559 2.47537 1.26052 3.05739 1.34 3.63333C2.07063 9.37884 6.60521 13.897 12.3533 14.6067H12.6067C13.0983 14.6074 13.5729 14.427 13.94 14.1C14.3666 13.7184 14.6093 13.1724 14.6067 12.6V10.6C14.5898 9.64504 13.9001 8.83526 12.96 8.66667ZM13.2933 12.6667C13.2931 12.8582 13.2105 13.0403 13.0667 13.1667C12.916 13.2967 12.7176 13.3572 12.52 13.3333C7.38402 12.6748 3.34748 8.61905 2.71334 3.48C2.6919 3.28266 2.75212 3.08514 2.88 2.93333C3.00638 2.78948 3.18852 2.70691 3.38 2.70667H5.38C5.6998 2.69955 5.97958 2.92058 6.04667 3.23333C6.07334 3.41556 6.10667 3.59556 6.14667 3.77333C6.22368 4.12476 6.32618 4.47012 6.45334 4.80667L5.52 5.24C5.35883 5.31395 5.23376 5.44907 5.17245 5.61546C5.11115 5.78186 5.11866 5.96583 5.19334 6.12667C6.1528 8.18184 7.80483 9.83387 9.86 10.7933C10.0223 10.86 10.2044 10.86 10.3667 10.7933C10.5346 10.7333 10.6715 10.6084 10.7467 10.4467L11.16 9.51333C11.5046 9.63659 11.8564 9.73899 12.2133 9.82C12.3911 9.86 12.5711 9.89333 12.7533 9.92C13.0661 9.9871 13.2871 10.2669 13.28 10.5867L13.2933 12.6667Z" fill="#3E6AF2"/>
+            </svg>
+            <a href="tel:+375296517309">+375 (29) 651-73-09</a>
+          </li>
+          <li class="contacts-item flex">
+            <svg class="contacts-item-icon" width="16" height="16" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M71.5321 142.533C67.7052 142.533 63.8703 142.228 60.1305 141.625C43.6226 138.967 28.4935 130.482 17.5357 117.733C6.45914 104.846 0.358154 88.3778 0.358154 71.3588C0.358154 32.1114 32.2886 0.184937 71.5321 0.184937C110.776 0.184937 142.71 32.1153 142.71 71.3588C142.71 88.6393 136.442 105.302 125.057 118.276C113.782 131.131 98.2925 139.502 81.4399 141.851C78.1796 142.307 74.844 142.537 71.5321 142.537V142.533ZM71.5321 4.93488C34.9072 4.93488 5.11206 34.73 5.11206 71.3548C5.11206 104.149 28.5686 131.725 60.8873 136.927C67.4001 137.977 74.2258 138.052 80.7822 137.137C113.374 132.597 137.952 104.315 137.952 71.3548C137.952 34.73 108.157 4.93488 71.5282 4.93488H71.5321Z" fill="#007EBB"/>
+              <path d="M36.2104 48.1202C34.3762 46.4167 33.4609 44.3091 33.4609 41.8014C33.4609 39.2938 34.3762 37.0911 36.2104 35.3876C38.0447 33.6841 40.4059 32.8324 43.3018 32.8324C46.1978 32.8324 48.4636 33.6841 50.2938 35.3876C52.128 37.0911 53.0433 39.2304 53.0433 41.8014C53.0433 44.3725 52.128 46.4167 50.2938 48.1202C48.4596 49.8236 46.1304 50.6754 43.3018 50.6754C40.4733 50.6754 38.0447 49.8236 36.2104 48.1202ZM51.4982 57.8894V110.091H35.0061V57.8894H51.4982Z" fill="#007EBB"/>
+              <path d="M106.41 63.0435C110.003 66.9456 111.801 72.3057 111.801 79.1275V109.172H96.1334V81.247C96.1334 77.8083 95.2421 75.1342 93.4594 73.2287C91.6767 71.3232 89.2801 70.3724 86.2693 70.3724C83.2585 70.3724 80.8616 71.3271 79.0789 73.2287C77.2962 75.1342 76.4048 77.8083 76.4048 81.247V109.172H60.6455V57.7468H76.4048V64.5687C78.0013 62.2947 80.1525 60.5001 82.8583 59.177C85.5601 57.8578 88.6027 57.1962 91.9819 57.1962C98.0035 57.1962 102.813 59.1492 106.406 63.0474L106.41 63.0435Z" fill="#007EBB"/>
+            </svg>
+            <a href="https://www.linkedin.com/in/alexandra-masalskaya-63ab04219/" class="contacts-link">Alexandra Masalskaya</a>
+          </li>
+          <li class="contacts-item flex">
+            <svg class="contacts-item-icon" width="16" height="16" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_910_21)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M24.0199 0C10.7375 0 0 10.8167 0 24.1983C0 34.895 6.87988 43.9495 16.4241 47.1542C17.6174 47.3951 18.0545 46.6335 18.0545 45.9929C18.0545 45.4319 18.0151 43.509 18.0151 41.5055C11.3334 42.948 9.94198 38.6209 9.94198 38.6209C8.86818 35.8164 7.27715 35.0956 7.27715 35.0956C5.09022 33.6132 7.43645 33.6132 7.43645 33.6132C9.86233 33.7735 11.1353 36.0971 11.1353 36.0971C13.2824 39.7827 16.7422 38.7413 18.1341 38.1002C18.3328 36.5377 18.9695 35.456 19.6455 34.8552C14.3163 34.2942 8.70937 32.211 8.70937 22.9161C8.70937 20.2719 9.66321 18.1086 11.1746 16.4261C10.9361 15.8253 10.1008 13.3409 11.4135 10.0157C11.4135 10.0157 13.4417 9.3746 18.0146 12.4996C19.9725 11.9699 21.9916 11.7005 24.0199 11.6982C26.048 11.6982 28.1154 11.979 30.0246 12.4996C34.5981 9.3746 36.6262 10.0157 36.6262 10.0157C37.9389 13.3409 37.1031 15.8253 36.8646 16.4261C38.4158 18.1086 39.3303 20.2719 39.3303 22.9161C39.3303 32.211 33.7234 34.2539 28.3544 34.8552C29.2296 35.6163 29.9848 37.0583 29.9848 39.3421C29.9848 42.5871 29.9454 45.1915 29.9454 45.9924C29.9454 46.6335 30.383 47.3951 31.5758 47.1547C41.12 43.9491 47.9999 34.895 47.9999 24.1983C48.0392 10.8167 37.2624 0 24.0199 0Z" fill="#24292F"/>
+              </g>
+              <defs>
+              <clippath id="clip0_910_21">
+              <rect width="48" height="48" fill="white"/>
+              </clippath>
+              </defs>
+            </svg>
+            <a href="https://github.com/Archi-Gudvin" class="contacts-link">Archi Gudvin</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="about section-indents" id="about">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          About
+        </h2>
+        <p class="about-description">
+          I&rsquo;m Alexandra and I&rsquo;m currently working as&nbsp;a&nbsp;backend developer. My&nbsp;goal is&nbsp;to&nbsp;become a&nbsp;sought-after full stack developer. Since 2023, I&nbsp;have been working at&nbsp;R&nbsp;Group as&nbsp;a&nbsp;software engineer, and&nbsp;I also help with the layout of&nbsp;components. Before that, I&nbsp;worked at&nbsp;a&nbsp;startup and wrote personal projects.
+        </p>
+      </div>
+    </section>
+    <section class="skills section-indents" id="skills">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          Skills
+        </h2>
+        <ul class="skills-list list-reset">
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              C#
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              ASP.NET MVC, Blazor, Web API
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              SQL, Entity Framework Core, MS SQL Server, DBeaver
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              HTTP, Swagger
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              DevExpress
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              HTML, CSS, Figma, DevTools
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              OOP, SOLID, async/await
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              Git, Fork
+            </p>
+          </li>
+          <li class="skills-item flex">
+            <svg class="skills-icon" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7C5.65685 7 7 5.65685 7 4C7 2.34315 5.65685 1 4 1C2.34315 1 1 2.34315 1 4C1 5.65685 2.34315 7 4 7Z" fill="white" stroke="#3E6AF2" stroke-width="1.5"/>
+            </svg>
+            <p class="skills-item-text">
+              MS Visual Studio 2019/2022, Jira, Сlickup
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="code-example section-indents" id="code-example">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          Code example
+        </h2>
+        <div>
+          <div class="code-example-container">
+            <div class="code-example-line-1">
+              <code class="code-example-text mod-text-1">public class&nbsp;</code>
+              <code class="code-example-text">CustomMath</code>
+            </div>
+            <div class="code-example-line-2">
+              <code class="code-example-text">{</code>
+            </div>
+            <div class="code-example-line-3">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text mod-text-1">public static int&nbsp;</code>
+              <code class="code-example-text">multiply(</code>
+              <code class="code-example-text mod-text-1">int</code>
+              <code class="code-example-text">a,</code>
+              <code class="code-example-text mod-text-1">int</code>
+              <code class="code-example-text mod-text-1">b</code>
+              <code class="code-example-text">)</code>
+            </div>
+            <div class="code-example-line-4">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">{</code>
+            </div>
+            <div class="code-example-line-5">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text mod-text-2">return&nbsp;</code>
+              <code class="code-example-text">a * b;</code>
+            </div>
+            <div class="code-example-line-6">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">}</code>
+            </div>
+            <div class="code-example-line-7">
+              <code class="code-example-text">}</code>
+            </div>
+            <div class="code-example-line-8">&nbsp;</div>
+            <div class="code-example-line-9">
+              <code class="code-example-text">using&nbsp;</code>
+              <code class="code-example-text">NUnit.Framework;</code>
+            </div>
+            <div class="code-example-line-10">
+              <code class="code-example-text">using&nbsp;</code>
+              <code class="code-example-text">System;</code>
+            </div>
+            <div class="code-example-line-11">&nbsp;</div>
+            <div class="code-example-line-12 flex">
+              <code class="code-example-text mod-text-1">[</code>
+              <code class="code-example-text mod-text-1">TestFixture</code>
+              <code class="code-example-text mod-text-1">]</code>
+            </div>
+            <div class="code-example-line-13">
+              <code class="code-example-text">public class&nbsp;</code>
+              <code class="code-example-text">CustomMathTest</code>
+            </div>
+            <div class="code-example-line-14">
+              <code class="code-example-text">{</code>
+            </div>
+            <div class="code-example-line-15">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">[Test]</code>
+            </div>
+            <div class="code-example-line-16">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">public void&nbsp;</code>
+              <code class="code-example-text">ShouldMultiple()</code>
+            </div>
+            <div class="code-example-line-17">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">{</code>
+            </div>
+            <div class="code-example-line-18 flex">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">Assert.</code>
+              <code class="code-example-text mod-text-2">AreEqual</code>
+              <code class="code-example-text mod-text-2">(2, CustomMath.multiply(2, 1));</code>
+            </div>
+            <div class="code-example-line-19 flex">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">Assert.</code>
+              <code class="code-example-text mod-text-2">AreEqual</code>
+              <code class="code-example-text mod-text-2">(8, CustomMath.multiply(2, 4));</code>
+            </div>
+            <div class="code-example-line-20">
+              <code class="code-example-text">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+              <code class="code-example-text">}</code>
+            </div>
+            <div class="code-example-line-21">
+              <code class="code-example-text">}</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects section-indents" id="projects">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          Projects
+        </h2>
+        <div class="project-1">
+          <h3 class="project-info-title flex">
+            Phone book
+          </h3>
+          <div class="project-view flex">
+            <img class="project-image" src="img/project-1.png" alt="Project 'Phone book'">
+          </div>
+          <div class="project-info">
+            <div class="project-stack-section flex">
+              <p class="project-stack-section-text">
+                Stack:
+              </p>
+              <ul class="project-list list-reset flex">
+                <li class="project-item">
+                  C#
+                </li>
+                <li class="project-item">
+                  ASP.NET MVC
+                </li>
+                <li class="project-item">
+                  HTML
+                </li>
+                <li class="project-item">
+                  CSS
+                </li>
+                <li class="project-item">
+                  Razor pages
+                </li>
+              </ul>
+            </div>
+            <p class="project-info-text">
+              The project implements the functionality of displaying users in tabular form with the possibility of authentication and authorization by roles. Your personal account will allow you to manage your data. Table sorting, viewing data of a specific user, password reset, and CRUD operations are implemented.
+            </p>
+            <a class="project-info-link btn-reset" href="https://github.com/Archi-Gudvin/phone-book-web">
+              See project
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education section-indents" id="education">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          Education
+        </h2>
+        <ul class="education-list list-reset">
+          <li class="education-item flex">
+            <div class="education-item-container">
+              <p class="education-item-text">
+                Skillbox
+              </p>
+              <p class="education-item-description">
+                .NET Developer
+              </p>
+            </div>
+            <span class="education-item-date">
+              2022 - 2023
+            </span>
+          </li>
+          <li class="education-item flex">
+            <div class="education-item-container">
+              <p class="education-item-text">
+                Belarusian National Technical University
+              </p>
+              <p class="education-item-description">
+                Control and Measuring instruments and Automation Engineer
+              </p>
+            </div>
+            <span class="education-item-date">
+              2020 - 2025
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="languages section-indents" id="languages">
+      <div class="container">
+        <h2 class="section-title mod-section-title">
+          Languages
+        </h2>
+        <ul class="languages-list list-reset flex">
+          <li class="languages-item">
+            Russian - <span class="languages-item-span">Native</span>
+          </li>
+          <li class="languages-item">
+            English - <span class="languages-item-span">B1</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer flex">
+    <div class="container footer-container">
+      <div class="footer-content flex">
+        <ul class="footer-list list-reset flex">
+          <li class="footer-item">
+            ©Alexandra Masalskaya - 2024
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="https://github.com/Archi-Gudvin">GitHub</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="https://www.linkedin.com/in/alexandra-masalskaya-63ab04219/">LinkedIn</a>
+          </li>
+          <li class="footer-item logo">
+            <a href="https://rs.school/courses/javascript-ru">
+              <img src="img/rs-school-logo.svg" alt="RS School logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
